@@ -7,11 +7,16 @@
 body{
     display: grid;
     height: 100vh;
+    
+    /* Not used much */
     grid-template-areas:
     'header header header'
     'nav section aside'
     'nav footer footer';
+    
+    /* much used yes */
     grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 10fr 1fr;
 }
 
 
